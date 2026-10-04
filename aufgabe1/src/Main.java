@@ -38,6 +38,14 @@ public class Main {
                 System.out.print("Schulnote: ");
                 double schulnote = scanner.nextDouble();
                 scanner.nextLine();
+                while (schulnote > 5){
+                    System.out.println("Note kann nicht > 5 sein!");
+                    System.out.print("Schulnote: ");
+                    schulnote = scanner.nextDouble();
+                    scanner.nextLine();
+
+                }
+
 
                 schueler[anzahl] =
                         new Schueler(name, geburtsjahr, schulnote);
