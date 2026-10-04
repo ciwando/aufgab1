@@ -45,6 +45,7 @@ public class Main {
                 anzahl++;
 
                 System.out.println("Schüler wurde hinzugefügt.");
+                System.out.println("Gespeicherte Schüler: " + anzahl + "/10");
 
             } else if (auswahl == 2) {
 
